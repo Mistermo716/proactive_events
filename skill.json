@@ -37,35 +37,35 @@
       }
     ],
     "events": {
-        "publications": [
-          {
-            "eventName": "AMAZON.OrderStatus.Updated"
-          },
-          {
-            "eventName": "AMAZON.MessageAlert.Activated"
-          },
-          {
-            "eventName": "AMAZON.TrashCollectionAlert.Activated"
-          },
-          {
-            "eventName": "AMAZON.WeatherAlert.Activated"
-          }
-        ],
-        "endpoint": {
-          "uri": "your-arn-here"
+      "publications": [
+        {
+          "eventName": "AMAZON.OrderStatus.Updated"
         },
-        "subscriptions": [
-          {
-            "eventName": "SKILL_PROACTIVE_SUBSCRIPTION_CHANGED"
-          }
-        ],
-        "regions": {
-          "NA": {
-            "endpoint": {
-              "uri": "your-arn-here"
-            }
+        {
+          "eventName": "AMAZON.MessageAlert.Activated"
+        },
+        {
+          "eventName": "AMAZON.TrashCollectionAlert.Activated"
+        },
+        {
+          "eventName": "AMAZON.WeatherAlert.Activated"
+        }
+      ],
+      "endpoint": {
+        "uri": "your-arn-here"
+      },
+      "subscriptions": [
+        {
+          "eventName": "SKILL_PROACTIVE_SUBSCRIPTION_CHANGED"
+        }
+      ],
+      "regions": {
+        "NA": {
+          "endpoint": {
+            "uri": "your-arn-here"
           }
         }
+      }
     },
     "manifestVersion": "1.0",
     "privacyAndCompliance": {
